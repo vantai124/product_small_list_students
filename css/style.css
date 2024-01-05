@@ -1,0 +1,54 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+div.forn-student,
+div.list-student {
+  width: 500px;
+  border: 1px solid #ccc;
+  margin: 25px;
+  padding: 10px;
+  float: left;
+}
+div.forn-student h3 {
+  padding: 0;
+  margin-top: 0;
+}
+div.forn-student label {
+  width: 100px;
+  float: left;
+}
+div.forn-student input[type="text"] {
+  margin-bottom: 10px;
+  width: 200px;
+  padding: 5px;
+}
+div.forn-student button {
+  margin-top: 20px;
+  width: 70px;
+  border-radius: 5px;
+  border: 2px solid;
+}
+div.forn-student button:hover {
+  background-color: #ccc;
+  border-radius: 5px;
+  border: 2px solid;
+}
+table,
+th,
+td {
+  width: 600px;
+  border: 1px solid black;
+}
+div.list-student {
+  width: 650px;
+}
+div h3 {
+  margin-top: 0;
+}
+.gender_style {
+  padding-right: 50px;
+
+  float: right;
+}

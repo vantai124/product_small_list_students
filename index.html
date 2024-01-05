@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>students manager</title>
+  </head>
+  <body onload="renderListStudents() ">
+    <div class="forn-student">
+      <h3>thong tin sinh vien</h3>
+      <label for="">ho va ten</label>
+      <input type="text" id="Fullname" />
+      <span id="fullname-error"></span>
+      <br />
+      <label for=""> dia chi email</label>
+      <input type="text" id="email" />
+      <span id="email-error"></span>
+      <br />
+      <label for="">so dien thoai</label>
+      <input type="text" id="phone" />
+      <span id="phone-error"></span>
+      <br />
+      <label for="">dia chi</label>
+      <input type="text" id="address" />
+      <span id="address-error"></span>
+      <br />
+      <label for="">gioi tinh</label>
+      <input type="radio" name="gender" id="male" value="1" />nam
+      <input type="radio" name="gender" id="famale" value="2" />nu
+      <span id="gender-error" class="gender_style"></span>
+      <br />
+
+      <button onclick="save()">luu lai</button>
+    </div>
+    <div class="list-student" id="list-student">
+      <h3>danh sach | sinh vien</h3>
+      <table cellpadding="0" id="gird-view-students"></table>
+    </div>
+  </body>
+  <script src="./js/main.js"></script>
+</html>
